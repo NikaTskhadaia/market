@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseHelper\DatabaseHelper.csproj" />
+    <ProjectReference Include="..\Market.Models\Market.Models.csproj" />
+    <ProjectReference Include="..\Market.Repository\Market.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

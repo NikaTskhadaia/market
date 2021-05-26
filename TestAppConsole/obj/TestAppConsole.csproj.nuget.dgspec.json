@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\TestAppConsole\\TestAppConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj",
+        "projectName": "DatabaseHelper",
+        "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj",
+        "packagesPath": "C:\\Users\\nikat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            },
+            "System.Data.OracleClient": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj",
+        "projectName": "Market.Models",
+        "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj",
+        "packagesPath": "C:\\Users\\nikat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\Market.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\Market.Repository.csproj",
+        "projectName": "Market.Repository",
+        "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\Market.Repository.csproj",
+        "packagesPath": "C:\\Users\\nikat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj": {
+                "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj"
+              },
+              "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj": {
+                "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\TestAppConsole\\TestAppConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\TestAppConsole\\TestAppConsole.csproj",
+        "projectName": "TestAppConsole",
+        "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\TestAppConsole\\TestAppConsole.csproj",
+        "packagesPath": "C:\\Users\\nikat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\TestAppConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj": {
+                "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\DatabaseHelper\\DatabaseHelper.csproj"
+              },
+              "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj": {
+                "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Models\\Market.Models.csproj"
+              },
+              "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\Market.Repository.csproj": {
+                "projectPath": "C:\\Users\\nikat\\OneDrive\\Documents\\repos\\Group-05\\G05_Market\\Market.Repository\\Market.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
